@@ -1,0 +1,81 @@
+
+
+
+body {
+    font-family: 'Lato', sans-serif;
+background-color: #f3f0e1;
+padding: 80px 80px;
+display:block;
+align-content: center;
+}
+
+
+
+
+
+strong{
+    color: #E96479;
+    animation-name: name;
+    animation-duration: 3s;
+}
+
+@keyframes name {
+    from{
+        color: #4D455D;
+    }
+    to{
+        color: #E96479;
+    }
+}
+
+h2{
+    font-weight: 200;
+    margin: 20px;
+}
+
+h3 {
+    color: #4D455D;
+    animation-name: name;
+    animation-duration: 3s;
+}
+
+@keyframes name {
+    from{
+        color: #E96479;
+    }
+    to{
+        color: #4D455D;
+    }
+}
+
+
+p {
+    font-weight: 200;
+}
+
+
+
+hr {
+    border-style: none;
+    border-top: dotted;
+    border-color: grey;
+    border-width: 5px;
+    width: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+.profile{
+    width: 200px;
+}
+
+img{
+    width: 100px;
+
+}
+
+div{
+    padding: 20px;
+}
+
